@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newspaper Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <div class="hamburger">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="article.html">Article</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <!-- <h1>The Daily Bugle</h1> -->
+        <link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
+        <img src="Daily Bugle Logo.png" alt="Daily Bugle Logo" width="auto">
+    </header>
+    <main>
+        <section class="featured-article">
+            <div id="Spider-Man">
+                <h2>Featured Article</h2>
+                <h3>Has Sony "scrapped" Spider-Man: Beyond the Spider-Verse?</h3>
+                <p>Spider-Man: Beyond the Spider-Verse producer Christopher Miller has stepped in to deny that Sony
+                    has “scrapped” most of the third film for creative reasons.
+
+                    Miller was forced to post on X/Twitter after industry reporter Jeff Sneider’s InSneider
+                    newsletter claimed on Monday that the highly anticipated third film in the Spider-Verse trilogy
+                    “would be unlikely to debut before 2027.
+
+                    "The InSneider report also hinted at creative differences causing some scenes to be scrapped.
+                    According to Variety, it stated: “While the Beyond the Spider-Verse team was taken aback by the
+                    change in direction, I’m told they’re relieved to have more time to work on the sequel, as it’s
+                    important to all involved that they stick the landing on this Oscar-winning franchise.”
+
+                    Miller, whose credits also include The Afterparty and The Mitchells vs the Machines, has been
+                    quick to chime in and deny the report. On Tuesday he wrote: “Nothing has been scrapped. The
+                    reels are coming along nicely.”
+
+                    This comes after composer Daniel Pemberton also weighed in on the claims. “Don’t really ever
+                    want to weigh in on this sort of stuff BUT would you ever believe there could sometimes be stuff
+                    on the internet that might not always be particularly accurate? Hmmmm…” he said....
+                    <a href="article.html">read more.</a>
+                </p>
+            </div>
+        </section>
+        <section class="latest-news">
+            <div id="trailer">
+                <h2>Latest News</h2>
+                <h3>Check out the latest trailer for <a
+                        href="https://www.the-independent.com/tv/culture/venom-trailer-tom-hardy-spider-man-b2612221.html"
+                        target="_blank">Venom: The Last Dance</a></h3>
+                <img src="venom-the-last-dance.avif" alt="Venom: The Last Dance" width="325px">
+            </div>
+        </section>
+    </main>
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', function () {
+            document.querySelector('nav.ul').classList.toggle('active');
+        });
+    </script>
+    <footer>
+        <p>For anonymous tips- Contact us at: tips@dailybugle.org</p>
+        <p>For all other inquiries- Contact us at contact@dailybugle.org</p>
+        <p>Careers</p>
+        <p>Address: 175 5th Ave, New York, NY 10010</p>
+    </footer>
+</body>
+
+</html>

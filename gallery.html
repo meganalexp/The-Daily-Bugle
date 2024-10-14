@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <div class="hamburger">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="article.html">Article</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="photo-gallery">
+        <div class="gallery-controls">
+            <button id="prev">Previous</button>
+            <button id="next">Next</button>
+        </div>
+        <div class="photo"><img src="Angry Peter Parker.jpg" alt="Raging Peter Parker!" width="300px"></div>
+        <div class="photo"><img src="image.png" alt="Spiderman" width="300px"></div>
+        <div class="photo"><img src="Spidey on the move.webp" alt="Spidey on the move" width="300px"></div>
+        <div class="photo"><img src="spidey caught in the act.jpg" alt="Spidey on the move" width="300px"></div>
+        <div class="photo"><img src="spiderman selfie.jpg" alt="Spidey on the move" width="300px"></div>
+        <div class="photo"><img src="who is spiderman.avif" alt="Spidey on the move" width="300px"></div>
+        <div class="photo"><img src="peter parker.webp" alt="Spidey on the move" width="300px"></div>
+    </main>
+    <script>
+        /*         let currentIndex = 0;
+                const images = document.querySelectorAll('.album img');
+                const totalimages = images.length;
+                document.querySelector('.hamburger').addEventListener('click', function () {
+                    document.querySelector('nav.ul').classList.toggle('active');
+                    function showImage(index) {
+                        images.forEach((img, i) => {
+                            img.classList.toggle('active', i === index);
+                        });
+                    }
+                    function nextImage() {
+                        currentIndex = (currentIndex + 1) % totalImages;
+                        showImage(currentIndex);
+                    }
+                    function previousImage() {
+                        currentIndex = (currentIndex - 1 + totalImages) % totalImages;
+                        showImage(currentIndex);
+                    }
+                }) */
+    </script>
+    <footer>
+        <p>For anonymous tips- Contact us at: tips@dailybugle.org</p>
+        <p>For all other inquiries- Contact us at contact@dailybugle.org</p>
+        <p>Careers</p>
+        <p>Address: 175 5th Ave, New York, NY 10010</p>
+    </footer>
+</body>
+
+</html>
